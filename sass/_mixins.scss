@@ -1,5 +1,5 @@
 @mixin fontdef-woff($FontPath, $FontName, $FontVersion:"1.0.0", $FontType:"Regular") {
-	src:	url('#{$FontPath}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff'),
-			url('#{$FontPath}/#{$FontName}-#{$FontType}.ttf?v=#{$FontVersion}') format('truetype');
+	src:	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff'),
+			url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.ttf?v=#{$FontVersion}') format('truetype');
 }
 
