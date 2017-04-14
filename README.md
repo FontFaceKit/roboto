@@ -1,6 +1,6 @@
 # Roboto @font-face kit
 
-I split the SASS file, so the developer can decide which fonts and styles he really needs.
+I split the SASS file, so the developer can decide which fonts and styles they really need.
 
 ## Demo
 __Our repository:__ [http://fontfacekit.github.com/roboto](http://fontfacekit.github.com/roboto)
